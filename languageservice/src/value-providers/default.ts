@@ -1,8 +1,8 @@
-import { ValueProviderConfig, ValueProviderKind } from "./config.js";
-import { needs } from "./needs.js";
-import { reusableJobInputs } from "./reusable-job-inputs.js";
-import { reusableJobSecrets } from "./reusable-job-secrets.js";
-import { stringsToValues } from "./strings-to-values.js";
+import {ValueProviderConfig, ValueProviderKind} from "./config.js";
+import {needs} from "./needs.js";
+import {reusableJobInputs} from "./reusable-job-inputs.js";
+import {reusableJobSecrets} from "./reusable-job-secrets.js";
+import {stringsToValues} from "./strings-to-values.js";
 
 // Refer to: https://github.com/actions/runner-images?tab=readme-ov-file#available-images
 export const DEFAULT_RUNNER_LABELS = [

@@ -1,2 +1,4 @@
 * @actions/actions-vscode-reviewers
-* @actions/runner-images-writers
+
+# Owners maintaining https://github.com/actions/runner-images
+/languageservice/src/value-providers/default.ts @actions/runner-images-writers

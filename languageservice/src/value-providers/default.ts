@@ -30,8 +30,6 @@ export const DEFAULT_RUNNER_LABELS = [
   "ubuntu-24.04-arm",
   "ubuntu-latest",
   "ubuntu-slim",
-  "windows-11-arm",
-  "windows-2019",
   "windows-2022",
   "windows-2025",
   "windows-2025-vs2026",

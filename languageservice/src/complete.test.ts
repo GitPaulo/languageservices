@@ -59,7 +59,7 @@ jobs:
     const result = await complete(...getPositionFromCursor(input));
 
     expect(result).not.toBeUndefined();
-    expect(result.length).toEqual(11);
+    expect(result.length).toEqual(27);
 
     const labels = result.map(x => x.label);
     expect(labels).toContain("macos-latest");
